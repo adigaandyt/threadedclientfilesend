@@ -11,6 +11,7 @@ import java.util.Scanner;
 public class Client {
 
     public static void main(String[] args) throws IOException {
+        //TTTTEEEESSSTTT
         int port = 5000;
         InetAddress ipAddress = Inet4Address.getByName("localhost");
         Socket clientSocket = new Socket(ipAddress, port);
